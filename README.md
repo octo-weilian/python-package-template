@@ -1,7 +1,7 @@
 # python-package-template
 Repository for a reusable Python package/ project template. 
 
-This template uses ```setuptools``` to build Python source distribution and/ or wheel. Make sure to pip install ```setuptools```, ```setuptools``` and ```wheel```.
+This template uses ```setuptools``` to build Python source distribution and/ or wheel. Make sure to pip install ```setuptools``` and ```wheel```.
 
 File structure:
 To be added...
