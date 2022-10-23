@@ -1,11 +1,27 @@
 # python-package-template
-Repository for a reusable Python package/ project template. 
+Repository for a reusable Python project/ package template. 
 
 This template uses ```setuptools``` to build Python source distribution and/ or wheel. 
 Make sure to pip install ```setuptools``` and ```wheel```.
 
-File structure:
-To be added...
+Python project structure:
+my-app
+│   appConfig.ini
+│   main.py
+│   README.md
+│   requirements.txt
+│   setup.bat
+│   setup.py
+│
+└───my_app
+    │   subpackage_a.py
+    │   subpackage_b.py
+    │   __init__.py
+    │
+    └───utils
+            config.py
+            logger.py
+            __init__.py
 
 File structure description:
 - The utils module provide basic methods for configuration and logging 
@@ -16,8 +32,8 @@ File structure description:
   - with termination (similar to ```print(end='\r')```)
 
 How to create a Python package:  
-1. Create a project folder   
-```mkdir my_app```
+1. Create a project folder. This is also your root/ repository folder.    
+```mkdir my-app```
 
 2. Copy content of *python-package-template* to your project folder  
 
@@ -27,13 +43,13 @@ How to create a Python package:
 5. Activate your virtual environment
 ```.venv\Scripts\activate.bat```
 
-4 Install additional packages  
-```python -m venv .venv```
+5. Install additional packages  
+```pip install requests```
 
-4. Develop your app in *my_app* folder. This is your main package. You can create subpackages/ folders.   
+6. Develop your app in *my_app* folder. This is your main package. You can create subpackages/ folders.   
 (Dont forget to include a ```__init__.py``` file for each subpackage) 
 
-5. Output dependencies in requirements format  
+7. Output dependencies in requirements format  
 ```pip freeze > requirements.txt```
 
-6. Run *setup.bat* to build source distribution and wheel   
+8. Run *setup.bat* to build source distribution and wheel   
