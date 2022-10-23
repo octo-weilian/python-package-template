@@ -8,7 +8,7 @@ File structure:
 To be added...
 
 File structure description:
-* The utils module provide basic methods for configuration and logging. 
+- The utils module provide basic methods for configuration and logging 
 
 How to create a Python package:  
 1. Create a project folder   
@@ -19,6 +19,9 @@ How to create a Python package:
 3. Create a virtual environment   
 ```python -m venv .venv```
 
-3. Develop your app in *my_app* folder. This is your package   
+3. Develop your app in *my_app* folder. This is your package
 
-4. Run *setup.bat* to build source distribution and wheel   
+4. Output dependencies in requirements format  
+```pip freeze > requirements.txt```
+
+6. Run *setup.bat* to build source distribution and wheel   
