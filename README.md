@@ -24,10 +24,16 @@ How to create a Python package:
 3. Create a virtual environment   
 ```python -m venv .venv```
 
-3. Develop your app in *my_app* folder. This is your main package. You can create subpackages/ folders.   
+5. Activate your virtual environment
+```.venv\Scripts\activate.bat```
+
+4 Install additional packages  
+```python -m venv .venv```
+
+4. Develop your app in *my_app* folder. This is your main package. You can create subpackages/ folders.   
 (Dont forget to include a ```__init__.py``` file for each subpackage) 
 
-4. Output dependencies in requirements format  
+5. Output dependencies in requirements format  
 ```pip freeze > requirements.txt```
 
 6. Run *setup.bat* to build source distribution and wheel   
