@@ -4,7 +4,9 @@ Repository for a reusable Python project/ package template.
 This template uses ```setuptools``` to build Python source distribution and/ or wheel. 
 Make sure to pip install ```setuptools``` and ```wheel```.
 
-Python project structure:
+Python project structure:  
+
+```
 my-app
 │   appConfig.ini
 │   main.py
@@ -22,6 +24,7 @@ my-app
             config.py
             logger.py
             __init__.py
+```
 
 File structure description:
 - The utils module provide basic methods for configuration and logging 
