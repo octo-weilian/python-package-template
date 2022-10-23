@@ -20,4 +20,4 @@ How to create a Python package:
 
 3. Develop your app in *my_app folder. This is your package. 
 
-4. Run **setup.bat to build source distribution and wheel. 
+4. Run *setup.bat to build source distribution and wheel. 
