@@ -4,7 +4,7 @@ Repository for a reusable Python project/ package template.
 This template uses ```setuptools``` to build Python source distribution and/ or wheel. 
 Make sure to pip install ```setuptools``` and ```wheel```.
 
-Python project structure:  
+Python project file structure:  
 
 ```
 my-app
@@ -34,7 +34,7 @@ File structure description:
   - without termination (similar to ```print(end='\n')```)
   - with termination (similar to ```print(end='\r')```)
 
-How to create a Python package:  
+Basic use:  
 1. Create a project folder. This is also your root/ repository folder.    
 ```mkdir my-app```
 
