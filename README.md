@@ -11,7 +11,7 @@ File structure description:
 * The utils module provide basic methods for configuration and logging. 
 
 How to create a Python package:  
-1. Create a project folder eg. 
+1. Create a project folder   
 ```mkdir my_app```
 
 2. Copy content of *python-package-template* to your project folder  
