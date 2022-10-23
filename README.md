@@ -9,6 +9,9 @@ To be added...
 
 File structure description:
 - The utils module provide basic methods for configuration and logging 
+- The main.py is the main program to execute the package
+- The configuration *.ini file has to be generated manually. It is recommended to read the configuration file from the main program.
+- Two example loggers: one without termination (similar to ```print(end='\n')```) and one with termination (similar to ```print(end='\r')```)
 
 How to create a Python package:  
 1. Create a project folder   
