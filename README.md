@@ -29,12 +29,12 @@ How to use (Linux):
 6. Run a test. The test is run against the current editable install outside the code.   
 `pytest -sv`
 
-7. Build distribution packages (tarball and wheels)
+7. Build distribution packages (tarball and wheels) 
 `python3 -m build`
 
 <br>
 
-[![output](output.png)]
+![output](output.png)
 
 Tips:
 * Disable pip install on your global environment     
