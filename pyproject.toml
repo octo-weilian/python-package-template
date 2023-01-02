@@ -17,5 +17,5 @@ my_app = "my_app.__main__:main"
 where = ["src"]
 
 [tool.setuptools.package-data]
-data = ["conf.ini"]
+my_app = ["conf.ini"]
 
