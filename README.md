@@ -11,7 +11,7 @@ Features:
 
 How to use (Linux):
 1. Copy template and cd to the directory    
-`cd /python-project-template-2022`
+`cd /python-package-template`
 2. Create a virtual environment    
 `python3 -m venv .venv`
 3. Activate the virtual environment     
