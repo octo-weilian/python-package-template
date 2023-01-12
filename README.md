@@ -1,6 +1,6 @@
 # Simple Python project template 2022
 
-Notes: 
+Features: 
 * `pyproject.toml` with PEP621 (new style metadata)
 * `my_app.utils` example package with standard logging and configuration methods
 * `__main__.py` entrypoint with `my_app.__main__:main` as console script  
@@ -29,7 +29,7 @@ How to use (Linux):
 6. Run a test. The test is run against the current editable install outside the code.   
 `pytest -sv`
 
-7. Build distribution packages (tarball and wheels) 
+7. Build distribution packages (tarball and wheels)  
 `python3 -m build`
 
 <br>
